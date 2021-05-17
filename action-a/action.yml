@@ -1,0 +1,31 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "lucas.blockv@gmail.com"
+
+inputs:
+        MY_NAME:
+                description: "Who to greet"
+                required: true
+                default: "World"
+        
+        runs:
+                using: "docker"
+                image: "Dockerfile"
+
+        branding:
+                icon: "mic"
+                color: "purple"
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
